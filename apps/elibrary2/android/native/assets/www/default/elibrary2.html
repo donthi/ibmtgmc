@@ -1,0 +1,53 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>E-Library</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="images/favicon.png" rel="shortcut icon">
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="css/elibrary2.css" rel="stylesheet">
+        <link href="css/typografic.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "elibrary2",
+   "APP_ID": "elibrary2",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "android",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "1420749232-2408201680-2746434164",
+   "WORKLIGHT_PLATFORM_VERSION": "6.1.0.00.20131219-1900",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/elibrary2\/android\/"
+};</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="worklight/analytics.js"></script>
+		<script src="worklight/jsonstore.js"></script>
+		<script>window.$ = window.jQuery = WLJQ;</script>
+    </head>
+    <body id="content" style="display: none;">
+        <div id="AppBody">
+		<!-- This is static header, it will be shown always -->
+            <center>
+                <div id="header" style="">
+                    <img alt="some_text" class="logo-header" src="images/logo_title.png" style="height: 40px; margin-top:1.5%">
+			</div>
+			<!-- This is a placeholder for dynamic page content -->
+                <div id="pagePort"></div>
+            </center>
+        </div>
+        <script src="js/initOptions.js"></script>
+	<script src="js/elibrary2.js"></script>
+	<script src="js/messages.js"></script>
+    </body>
+</html>

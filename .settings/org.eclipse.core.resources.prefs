@@ -1,0 +1,20 @@
+#Mon Mar 31 16:31:01 IST 2014
+base.iphone=3577331796
+base.android=1420749232
+common.android=3995469295
+fipshttp.android=1259741140
+elibrary2.android.warnversion=1.0
+wl_version=6.1.0.00.20131219-1900
+eclipse.preferences.version=1
+jsonstore.android=2746434164
+analytics.ipad=2383137509
+elibrary2.iphone.warnversion=1.0
+fipshttp.iphone=4131626944
+elibrary2.iphone.native=3577331796-752482804
+fipshttp.ipad=1204642243
+encoding//apps/elibrary2/android/css/elibrary2.css=UTF-8
+base.ipad=3577331796
+elibrary2.android.native=1420749232-2408201680-2746434164
+elibrary2.ipad.native=3577331796-2383137509
+analytics.android=2408201680
+analytics.iphone=752482804

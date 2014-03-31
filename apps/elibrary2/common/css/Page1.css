@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+
+body {
+	height: 100%;
+	max-width: 100%;
+	text-align: center;
+	background-color: #FFF;
+}
+
+.page_content
+{
+	 padding-bottom: 27%;
+}
+
+.page_logo_body {
+	margin-top: 10%;
+}
+
+#footer {
+	position: relative;
+	padding-bottom: -260px;
+	height: 100%;
+	background-color: #0072FF;
+	clear: both;
+}

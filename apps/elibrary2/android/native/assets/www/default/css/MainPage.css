@@ -1,0 +1,35 @@
+
+/* Stylesheet content from css/MainPage.css in folder common */
+html
+{
+	max-height:100%;
+	max-width:100%;
+	background-color:#fff;
+}
+
+body
+{
+	max-height:100%;
+	max-width:100%;
+	text-align:center;
+	background-color:#FFF;
+	
+}
+
+.logo
+{
+	margin-top:15%;	
+}
+
+#main_page_body
+{
+	display:block;
+	vertical-align: middle;
+	padding-top: 25%;
+	margin: 0 auto;
+}
+
+.button_continue
+{
+	padding-top: 15%;
+}

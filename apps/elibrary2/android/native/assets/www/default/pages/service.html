@@ -1,0 +1,41 @@
+
+<script src="js/service.js"></script>
+<script src="js/button.js"></script>
+<link href="css/button.css" rel="stylesheet" type="text/css" />
+<link href="css/service.css" rel="stylesheet" type="text/css" />
+<link href="css/typografic.css" rel="stylesheet" type="text/css" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<center>
+	<div title
+		style="font-family: HelveticaNeue-UltraLight; text-align:center; font-size: 25px;letter-spacing: 10px; padding-top: 5%">Service
+		Center</div>
+</center>
+
+
+
+<div id="FragmentsDiv"></div>
+<div class=service_button_upper>
+	<center>
+		<input type="button" id="price" class="button_price"
+			onclick="currentPage.loadservice(); "  /> 
+			<input type="button"
+			id="recommend" class="button_reco"
+			onclick="currentPage.loadrecommend();"
+			 />
+	</center>
+</div>
+
+<div class=service_button_lower>
+	<center>
+		<input type="button"  id="find"
+			class="button_collect" onclick="currentPage.loadfind();" />
+		<input type="button"  id="rehome"
+			class="button_home" onclick="currentPage.loadPage1();" />
+	</center>
+</div>
+
+	<!-- <input type="button" value="Library Catalog" id="find"
+		class="btn-gradient purple mini" onclick="currentPage.loadfind();" />
+	<input type="button" value="Home" id="rehome"
+		class="btn-gradient red mini" onclick="currentPage.loadPage1();" /> -->

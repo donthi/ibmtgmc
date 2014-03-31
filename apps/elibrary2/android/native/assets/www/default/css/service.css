@@ -1,0 +1,39 @@
+
+/* Stylesheet content from css/service.css in folder common */
+
+
+.page_content
+{
+	 padding-bottom: 21%;
+}
+
+.page_logo_body {
+	margin-top: 5%;
+}
+
+/* #page_logo_body {
+	display: block;
+	vertical-align: middle;
+	padding-top: 10%;
+	margin: 0 auto;
+} */
+
+.service_button_upper
+{
+	padding-top:3%;
+}
+
+.service_button_lower
+{
+	padding-top:3%;
+}
+
+
+
+#footer {
+	position: relative;
+	padding-bottom: -250px;
+	height: 100%;
+	background-color: #0072FF;
+	clear: both;
+}

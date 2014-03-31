@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wl:adapter xmlns:wl="http://www.worklight.com/integration" xmlns:http="http://www.worklight.com/integration/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="recommend">
+
+	<displayName>recommend</displayName>
+	<description>recommend</description>
+	<connectivity>
+		<connectionPolicy xsi:type="http:HTTPConnectionPolicyType">
+			<protocol>http</protocol>
+			<domain>192.168.137.48</domain>
+			<port>80</port>	
+			<!-- Following properties used by adapter's key manager for choosing specific certificate from key store  
+			<sslCertificateAlias></sslCertificateAlias> 
+			<sslCertificatePassword></sslCertificatePassword>
+			-->		
+		</connectionPolicy>
+		<loadConstraints maxConcurrentConnectionsPerNode="2"/>
+	</connectivity>
+
+	<procedure name="postjason"/>
+
+	<procedure name="getStoriesFiltered"/>
+	
+</wl:adapter>

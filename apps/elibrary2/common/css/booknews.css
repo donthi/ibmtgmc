@@ -1,0 +1,10 @@
+
+
+
+#footer {
+	position: relative;
+	margin-top: 125%; /* negative value of footer height */
+	height: 63px;
+	clear: both;
+	background-color: #0072FF;
+}

@@ -1,0 +1,46 @@
+
+/* Stylesheet content from css/recommend.css in folder common */
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+}
+
+body {
+	height: 100%;
+	max-width: 100%;
+	text-align: center;
+	background-color: #FFF;
+}
+
+
+.page_content {
+	overflow: auto;
+}
+
+.select_style select {
+    padding:5px;
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    border-radius:4px;
+    background:url(../images/arrow.png) no-repeat right #0072FF;
+    color:#fff;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+#footer {
+	position: relative;
+	margin-top: 35%;
+	height: 100%;
+	background-color: #0072FF;
+	clear: both;
+}

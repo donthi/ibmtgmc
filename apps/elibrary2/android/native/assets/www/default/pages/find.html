@@ -1,0 +1,39 @@
+
+
+<script src="js/find.js"></script>
+<script src="js/button.js"></script>
+<link href="css/button.css" rel="stylesheet" type="text/css" />
+<link href="css/find.css" rel="stylesheet" type="text/css" />
+<link href="css/typografic.css" rel="stylesheet" type="text/css" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<center>
+	<div style="font-family: HelveticaNeue-UltraLight; letter-spacing: 10px; padding-top: 3%">Library
+		Collection</div>
+
+	<div class="page_logo_body" style="margin-top: 7%">
+		<img class="page_body" src="images/collect_logo.png" alt="some_text">
+	</div>
+
+	<input type="text" class="input" name="isbn" id="isbn"
+		placeholder="ISBN"
+		style="margin-top: 5%; letter-spacing: 1px; font-size: 15px; padding: 5px; width: 260px; text-align: center; font-family: HelveticaNeue-UltraLight;" />
+
+	<div class="select_style" style="margin-top: 5%;">
+		<select>
+			<option value="stu">University of Science and Technology</option>
+			<option value="sstu">Shuter School of Home Economics</option>
+			<option value="opel">Kaohsiung First University of Science and Technology</option>
+			<option value="audi">Kaohsiung University of Applied Sciences</option>
+		</select>
+	</div>
+	<div id="footer">
+		<input type="button" value="Next" id="next"
+			class="btn-gradient blue large" onclick="currentPage.loadservice();">
+	</div>
+
+</center>
+
+<!-- 
+<input type="button" value="Next" id="next"
+	class="btn-gradient red mini" onclick="currentPage.loadservice();" /> -->
