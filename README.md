@@ -1,9 +1,13 @@
-E_Library_Worklight
-===================
+E-Library
+==============
 
 E-library with IBM Worklight
 
-E-Library system IBM worklight version
--recommend system with SHU-TE University library
--book search,pricing system with FindBook system
--support by all platform of mobile os
+this appliction will ease the management of the library by the use of the hand-held devices ,this project is developed by the usage of IBM Worklight 6.0 .
+
+
+
+Developed By:
+Aravind Govardhana <email>govardhana.aravind@live.com</email>,
+Donthi Abhishek Reddy <email>donthiabhishekreddy@gmail.com</email>
+Adepu Varuntej <email>varuntej.adepu@gmail.com</email>
